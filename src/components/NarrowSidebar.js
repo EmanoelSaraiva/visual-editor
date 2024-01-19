@@ -1,17 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const styleButton = {
-  borderRadius: "10px",
-  border: "none",
-  backgroundColor: "#605BFF",
-  color: "white",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  padding: "10px 15px 10px 15px",
-  cursor: "pointer",
-};
+// const styleButton = {
+//   borderRadius: "10px",
+//   border: "none",
+//   backgroundColor: "#605BFF",
+//   color: "white",
+//   display: "flex",
+//   alignItems: "center",
+//   justifyContent: "center",
+//   padding: "10px 15px 10px 15px",
+//   cursor: "pointer",
+// };
 
 export default function NarrowSidebar(props) {
   return (
@@ -36,7 +36,7 @@ export default function NarrowSidebar(props) {
           <span className="material-icons">search</span>
         </button> */}
         <button
-          style={styleButton}
+          // style={styleButton}
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${
             props.activeTab === 2 ? "active-button" : ""
@@ -46,7 +46,7 @@ export default function NarrowSidebar(props) {
           <span className="material-icons">view_quilt</span>
         </button>
         <button
-          style={styleButton}
+          // style={styleButton}
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${
             props.activeTab === 3 ? "active-button" : ""
@@ -56,7 +56,7 @@ export default function NarrowSidebar(props) {
           <span className="material-icons">subject</span>
         </button>
         <button
-          style={styleButton}
+          // style={styleButton}
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${
             props.activeTab === 4 ? "active-button" : ""
