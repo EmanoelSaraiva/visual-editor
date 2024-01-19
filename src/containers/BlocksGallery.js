@@ -7,7 +7,7 @@ class BlocksGallery extends Component {
   render() {
     if (!this.props.display) return null;
     return (
-      <div style={{ display: "flex", flexDirection: "column", width: "400" }}>
+      <div>
         <h5>Categoria: {this.props.category}</h5>
         <hr />
         {Object.keys(blocks).map((blockId) => {

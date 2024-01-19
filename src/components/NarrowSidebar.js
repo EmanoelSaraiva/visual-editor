@@ -16,14 +16,7 @@ const styleButton = {
 export default function NarrowSidebar(props) {
   return (
     <div>
-      <div
-        style={{
-          marginLeft: "-10px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "20px",
-        }}
-      >
+      <div>
         {/* <button
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${

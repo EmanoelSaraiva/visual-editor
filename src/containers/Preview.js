@@ -66,20 +66,12 @@ export default function Preview(props) {
   };
 
   return (
-    <div
-      className="page-content-wrapper overflow-hidden d-flex justify-content-center"
-      style={{ display: "flex" }}
-    >
+    <div className="page-content-wrapper overflow-hidden d-flex justify-content-center">
       <div
         className={`preview-window shadow-lg preview-mode-${props.previewMode}`}
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "85%",
-        }}
       >
         <div style={{ display: "flex", justifyContent: "end" }}>
-          <div style={{ display: "flex" }}>
+          <div>
             <button
               onClick={() => props.onChangePreviewMode(0)}
               className={`btn btn-sm btn-preview-toolbar d-flex align-items-center ${
@@ -124,8 +116,6 @@ export default function Preview(props) {
         <iframe
           title={"visual-iframe"}
           className={`visual-iframe`}
-          width={1080}
-          height={700}
           srcDoc={props.html}
         />
       </div>
