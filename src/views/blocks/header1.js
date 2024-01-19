@@ -8,9 +8,9 @@ const hbs = `
 
 const block = {
   hbs,
-  name: 'Simple Header #1',
-  previewImageUrl: 'https://i.imgur.com/IXz7LZ5.png',
-  category: 'header',
+  name: "Simple Header #1",
+  previewImageUrl: "https://i.imgur.com/IXz7LZ5.png",
+  category: "Cabeçalho",
   defaultData: {
     title: "Hello World",
     tagline: "Lorem ipsum dolor sit amet.",
@@ -19,17 +19,17 @@ const block = {
   config: {
     title: {
       type: "string",
-      name: 'Title',
+      name: "Title",
     },
     tagline: {
       type: "string",
-      name: 'Tag Line',
+      name: "Tag Line",
     },
     link: {
       type: "string",
-      name: 'Text on the link',
-    }
-  }
+      name: "Text on the link",
+    },
+  },
 };
 
 export default block;

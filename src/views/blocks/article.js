@@ -9,7 +9,7 @@ const hbs = `
     </div>
     <div class="row">
       <div class="col-sm-6 col-md-4 item">
-        <a href={{link}}>
+        <a href="#">
             <img class="img-fluid" src="{{image1}}" />
         </a>
         <h3 class="name">{{articleTitle1}}</h3>
@@ -34,16 +34,15 @@ const hbs = `
 </div>
 `;
 
-const block = {
+const Article1 = {
   hbs,
   name: "Article #1",
   previewImageUrl: "https://i.imgur.com/6QUsWtK.png",
-  category: "Artigos",
+  category: "article",
   defaultData: {
     title: "Sample section",
     description: "Lorem ipsum dolor sit amet.",
     image1: "https://via.placeholder.com/450x450",
-    link: "http://localhost:3000",
     image2: "https://via.placeholder.com/450x450",
     image3: "https://via.placeholder.com/450x450",
     articleTitle1: "Hello World",
@@ -68,10 +67,6 @@ const block = {
     image1: {
       type: "string",
       name: "Url to image #1",
-    },
-    link: {
-      type: "string",
-      name: "Link para navegação",
     },
     image2: {
       type: "string",
@@ -108,4 +103,4 @@ const block = {
   },
 };
 
-export default block;
+export default Article1;

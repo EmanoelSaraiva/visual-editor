@@ -14,7 +14,6 @@ import Settings from "./Settings";
 
 import actionTypes from "../constants/actionTypes";
 import Output from "./Output";
-import BlockPreview from "../components/BlockPreview";
 
 class App extends React.Component {
   constructor(props) {
@@ -107,20 +106,21 @@ class App extends React.Component {
                 onChangeActiveTab={this.handleChangeActiveTab}
                 activeTab={activeTab}
               />
+
               <WideSidebar>
-                <BlocksGallery category="header" />
+                <BlocksGallery category="Cabeçalho" />
                 <Inspector display={activeTab === 0} />
                 <Search
                   display={activeTab === 1}
                   onPushBlock={this.handlePushBlock}
                 />
                 <BlocksGallery
-                  category="header"
+                  category="Cabeçalho"
                   display={activeTab === 2}
                   onPushBlock={this.handlePushBlock}
                 />
                 <BlocksGallery
-                  category="article"
+                  category="Artigos"
                   display={activeTab === 3}
                   onPushBlock={this.handlePushBlock}
                 />

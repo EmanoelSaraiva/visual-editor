@@ -8,8 +8,10 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "dompurify": "^3.0.8",
     "gh-pages": "^4.0.0",
     "handlebars": "^4.7.6",
+    "jszip": "^3.10.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-debounce-input": "^3.2.3",
@@ -25,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

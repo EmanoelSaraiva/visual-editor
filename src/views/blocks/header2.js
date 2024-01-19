@@ -11,9 +11,9 @@ const hbs = `
 
 const block = {
   hbs,
-  name: 'Simple Header #2',
-  previewImageUrl: 'https://i.imgur.com/1bYEKB4.png',
-  category: 'header',
+  name: "Simple Header #2",
+  previewImageUrl: "https://i.imgur.com/1bYEKB4.png",
+  category: "Cabeçalho",
   defaultData: {
     title: "Hello World",
     tagline: "Lorem ipsum dolor sit amet.",
@@ -23,21 +23,21 @@ const block = {
   config: {
     title: {
       type: "string",
-      name: 'Title',
+      name: "Title",
     },
     tagline: {
       type: "string",
-      name: 'Tag Line',
+      name: "Tag Line",
     },
     button: {
       type: "string",
-      name: 'Text on the button',
+      name: "Text on the button",
     },
     link: {
       type: "string",
-      name: 'Text on the link',
-    }
-  }
+      name: "Text on the link",
+    },
+  },
 };
 
 export default block;

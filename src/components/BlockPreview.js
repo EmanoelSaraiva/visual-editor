@@ -20,9 +20,16 @@ class BlockPreview extends Component {
         <div
           className="prompt"
           onClick={() => this.props.onPushBlock(this.props.blockId)}
-          style={{ position: "absolute", left: "40%", top: "30%" }}
+          style={{
+            position: "absolute",
+            left: "40%",
+            top: "30%",
+          }}
         >
-          <div className="prompt-inside">
+          <div
+            className="prompt-inside"
+            style={{ display: "flex", width: "100%", gap: "10px" }}
+          >
             <div>{this.props.name}</div>
             <button className="btn btn-outline-light btn-sm m-2">
               Add block

@@ -29,9 +29,9 @@ const hbs = `
 
 const block = {
   hbs,
-  name: "Navbar #1",
+  name: "Navbar",
   previewImageUrl: "https://i.imgur.com/awrvf3d.png",
-  category: "header",
+  category: "Cabeçalho",
   defaultData: {
     title: "Reynholm",
     link1: "Home",
