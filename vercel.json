@@ -1,0 +1,9 @@
+{
+  "build": {
+    "functions": {
+      "api/*.js": {
+        "runtime": "vercel/node@16.13.0"
+      }
+    }
+  }
+}
