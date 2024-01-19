@@ -99,7 +99,7 @@ class App extends React.Component {
 
     return (
       <Router>
-        <div style={{ display: "flex", gap: "10px" }}>
+        <div className="wrapper d-flex">
           <Switch>
             <Route path="/">
               <NarrowSidebar

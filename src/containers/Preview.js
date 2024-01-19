@@ -70,8 +70,8 @@ export default function Preview(props) {
       <div
         className={`preview-window shadow-lg preview-mode-${props.previewMode}`}
       >
-        <div style={{ display: "flex", justifyContent: "end" }}>
-          <div>
+        <div className="preview-toolbar d-flex align-items-center justify-content-between">
+          <div className="d-flex">
             <button
               onClick={() => props.onChangePreviewMode(0)}
               className={`btn btn-sm btn-preview-toolbar d-flex align-items-center ${

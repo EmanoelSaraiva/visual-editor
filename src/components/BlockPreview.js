@@ -4,14 +4,7 @@ import PropTypes from "prop-types";
 class BlockPreview extends Component {
   render() {
     return (
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "400px",
-          position: "relative",
-        }}
-      >
+      <div className="card card-body p-2 shadow-lg block-entry mb-2">
         <img
           src={this.props.image}
           alt={this.props.name}
@@ -26,10 +19,7 @@ class BlockPreview extends Component {
             top: "30%",
           }}
         >
-          <div
-            className="prompt-inside"
-            style={{ display: "flex", width: "100%", gap: "10px" }}
-          >
+          <div className="prompt-inside">
             <div>{this.props.name}</div>
             <button className="btn btn-outline-light btn-sm m-2">
               Add block

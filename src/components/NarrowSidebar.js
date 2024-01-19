@@ -15,7 +15,7 @@ const styleButton = {
 
 export default function NarrowSidebar(props) {
   return (
-    <div>
+    <div className="icons-wrapper bg-dark-blue d-flex flex-column justify-content-between">
       <div>
         {/* <button
           type="button"
