@@ -13,11 +13,6 @@ class BlockPreview extends Component {
         <div
           className="prompt"
           onClick={() => this.props.onPushBlock(this.props.blockId)}
-          style={{
-            position: "absolute",
-            left: "40%",
-            top: "30%",
-          }}
         >
           <div className="prompt-inside">
             <div>{this.props.name}</div>
