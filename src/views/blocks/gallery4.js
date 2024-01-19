@@ -27,9 +27,9 @@ const hbs = `
 
 const block = {
   hbs,
-  name: '4 column gallery',
-  previewImageUrl: 'https://i.imgur.com/jFFAd28.png',
-  category: 'gallery',
+  name: "4 column gallery",
+  previewImageUrl: "https://i.imgur.com/jFFAd28.png",
+  category: "Galeria de Imagens",
   defaultData: {
     img1: "https://via.placeholder.com/450x450",
     img2: "https://via.placeholder.com/450x450.",
@@ -43,37 +43,37 @@ const block = {
   config: {
     img1: {
       type: "string",
-      name: 'Url to image #1',
+      name: "Url to image #1",
     },
     img2: {
       type: "string",
-      name: 'Url to image #2',
+      name: "Url to image #2",
     },
     img3: {
       type: "string",
-      name: 'Url to image #3',
+      name: "Url to image #3",
     },
     img4: {
       type: "string",
-      name: 'Url to image #4',
+      name: "Url to image #4",
     },
     alt1: {
       type: "string",
-      name: 'Alt for image #1',
+      name: "Alt for image #1",
     },
     alt2: {
       type: "string",
-      name: 'Alt for image #2',
+      name: "Alt for image #2",
     },
     alt3: {
       type: "string",
-      name: 'Alt for image #3',
+      name: "Alt for image #3",
     },
     alt4: {
       type: "string",
-      name: 'Alt for image #4',
+      name: "Alt for image #4",
     },
-  }
+  },
 };
 
 export default block;

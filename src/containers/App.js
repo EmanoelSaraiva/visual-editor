@@ -125,7 +125,7 @@ class App extends React.Component {
                   onPushBlock={this.handlePushBlock}
                 />
                 <BlocksGallery
-                  category="gallery"
+                  category="Galeria de Imagens"
                   display={activeTab === 4}
                   onPushBlock={this.handlePushBlock}
                 />
