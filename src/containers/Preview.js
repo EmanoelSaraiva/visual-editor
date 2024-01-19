@@ -13,7 +13,7 @@ export default function Preview(props) {
     const zip = new JSZip();
 
     // Adicionar o conteúdo do iframe limpo ao arquivo zip
-    zip.file("iframe-content.html", cleanedHTML);
+    zip.file("LPFunnel.html", cleanedHTML);
 
     // Gerar o conteúdo do arquivo zip
     const content = await zip.generateAsync({ type: "blob" });
@@ -24,7 +24,7 @@ export default function Preview(props) {
     // Criar um elemento de link para iniciar o download
     const link = document.createElement("a");
     link.href = url;
-    link.download = "conteudo-iframe.zip"; // Nome do arquivo zip
+    link.download = "lp-funnel.zip"; // Nome do arquivo zip
     document.body.appendChild(link);
 
     // Iniciar o download e remover o elemento de link
