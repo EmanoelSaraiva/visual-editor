@@ -65,15 +65,15 @@ export default function NarrowSidebar(props) {
         >
           <span className="material-icons">insert_photo</span>
         </button>
-        {/* <button
+        <button
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${
             props.activeTab === 5 ? "active-button" : ""
           }`}
           onClick={() => props.onChangeActiveTab(5)}
         >
-          <span className="material-icons">featured_video</span>
-        </button> */}
+          <span className="material-icons">footer</span>
+        </button>
       </div>
       {/* <div>
         <button

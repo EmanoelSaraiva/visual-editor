@@ -130,7 +130,7 @@ class App extends React.Component {
                   onPushBlock={this.handlePushBlock}
                 />
                 <BlocksGallery
-                  category="ad"
+                  category="Rodapé"
                   display={activeTab === 5}
                   onPushBlock={this.handlePushBlock}
                 />

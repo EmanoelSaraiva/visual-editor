@@ -5,9 +5,12 @@ import navbar1 from "./navbar1";
 import gallery3 from "./gallery3";
 import gallery4 from "./gallery4";
 import gallery2 from "./gallery2";
+import gallery5 from "./gallery5";
 
 import article1 from "./article1";
 import article2 from "./article2";
+
+import footer1 from "./footer";
 
 const blocks = {
   header1,
@@ -16,8 +19,10 @@ const blocks = {
   gallery3,
   gallery4,
   gallery2,
+  gallery5,
   article1,
   article2,
+  footer1,
 };
 
 export default blocks;
