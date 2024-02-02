@@ -1,4 +1,3 @@
-import header1 from "./header1";
 import header2 from "./header2";
 import navbar1 from "./navbar1";
 
@@ -13,7 +12,6 @@ import article2 from "./article2";
 import footer1 from "./footer";
 
 const blocks = {
-  header1,
   header2,
   navbar1,
   gallery3,
