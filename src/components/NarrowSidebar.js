@@ -59,22 +59,21 @@ export default function NarrowSidebar(props) {
         >
           <span className="material-icons">vertical_align_bottom</span>
         </button>
-      </div>
-      {/* <div>
         <button
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${
-            props.activeTab === 9 ? "active-button" : ""
+            props.activeTab === 6 ? "active-button" : ""
           }`}
-          onClick={() => props.onChangeActiveTab(9)}
+          onClick={() => props.onChangeActiveTab(6)}
         >
           <span className="material-icons">save</span>
         </button>
-      </div> */}
+      </div>
     </div>
   );
 }
 
 NarrowSidebar.propTypes = {
   onChangeActiveTab: PropTypes.func.isRequired,
+  
 };

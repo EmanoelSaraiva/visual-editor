@@ -9,7 +9,8 @@ import gallery5 from "./gallery5";
 import article1 from "./article1";
 import article2 from "./article2";
 
-import footer1 from "./footer";
+import footer1 from "./footer1";
+import exempl1 from "./exempl1"
 
 const blocks = {
   header2,
@@ -21,6 +22,7 @@ const blocks = {
   article1,
   article2,
   footer1,
+  exempl1,
 };
 
 export default blocks;

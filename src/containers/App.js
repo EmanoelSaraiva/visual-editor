@@ -36,7 +36,6 @@ class App extends React.Component {
   }
 
   handleMessage(event) {
-    console.log(event.data);
     if (event.data.event) {
       if (event.data.blockId && event.data.event === "click") {
         this.handleChangeActiveTab(0);

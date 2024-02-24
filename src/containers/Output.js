@@ -1,13 +1,8 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {connect} from "react-redux";
-import documents from "../views/documents";
-import actionTypes from "../constants/actionTypes";
 
 class Output extends Component {
-  constructor(props) {
-    super(props);
-  }
+ 
 
   render() {
     if (!this.props.display) return null;
