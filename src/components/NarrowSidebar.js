@@ -13,7 +13,7 @@ export default function NarrowSidebar(props) {
           onClick={() => props.onChangeActiveTab(0)}
         >
           <span className="material-icons">edit</span>
-        </button>
+        </button> */}
         <button
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${
@@ -22,7 +22,7 @@ export default function NarrowSidebar(props) {
           onClick={() => props.onChangeActiveTab(1)}
         >
           <span className="material-icons">search</span>
-        </button> */}
+        </button>
         <button
           type="button"
           className={`btn btn-sidebar btn-block m-0 ${

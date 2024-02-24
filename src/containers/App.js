@@ -133,6 +133,11 @@ class App extends React.Component {
                   display={activeTab === 5}
                   onPushBlock={this.handlePushBlock}
                 />
+                <BlocksGallery
+                  category="Exemplos"
+                  display={activeTab === 6}
+                  onPushBlock={this.handlePushBlock}
+                />
 
                 <Output display={activeTab === 9} html={innerHTML} />
                 <Settings display={activeTab === 10} />
